@@ -1,0 +1,17 @@
+.header {
+	background-color: var(--header-bg);
+	padding: 0px 0;
+
+	&__row {
+		display: flex;
+		gap: 10px;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+// .header__nav {
+// 	@include tablet {
+// 		display: none;
+// 	}
+// }

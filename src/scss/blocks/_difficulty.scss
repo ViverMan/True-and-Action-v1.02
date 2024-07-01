@@ -1,0 +1,32 @@
+.difficulty {
+    background-color: #999;
+    background-image: url('./../../img/main/bg-main.jpg');
+    background-position: center -80px; /* x y */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+    
+    @include tablet {
+        // background-position: center -50px;
+    }
+}
+
+.difficulty-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: calc(100vh - 60px);
+}
+
+.difficulty-content__btns {
+    display: flex;
+    gap: 20px;
+
+    @include mobileSm {
+        flex-direction: column;
+    }
+}
+
+

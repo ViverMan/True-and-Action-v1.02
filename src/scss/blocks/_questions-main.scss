@@ -1,0 +1,18 @@
+.questions-main__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    height: calc(100svh - 100px);
+}
+
+.questions-main__btns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+    font-size: 40px;
+}
+

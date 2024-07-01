@@ -1,0 +1,29 @@
+.questions-normal__text {
+    font-size: clamp(25px, 5vw, 50px);
+}
+
+.difficulty-content__text {
+    p {
+        font-size: clamp(35px, 5vw, 52px);
+        text-decoration: underline;
+        color: var(--text-color-white);
+        text-shadow: rgb(255, 255, 255) 3px 2px 10px;
+    }
+}
+
+.text {
+    display: flex;
+    text-align: center;
+}
+
+.questions-text {
+    font-size: 52px;
+    padding: 20px;
+    background-color: rgba($color: #272222, $alpha: 0.7);
+    border-radius: 15px;
+    color: var(--text-color);
+
+    p {
+        font-size: clamp(40px, 5vw, 52px);
+    }
+}
