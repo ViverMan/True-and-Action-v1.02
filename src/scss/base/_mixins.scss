@@ -21,3 +21,9 @@
 		@content;
 	}
 }
+
+@mixin mobileSmH () {
+    @media (max-height: 480px) {
+		@content;
+	}
+}

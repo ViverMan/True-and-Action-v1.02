@@ -1,10 +1,12 @@
-import phrases from "./../../html/data/question-true-normal.json";
-import phrases2 from "./../../html/data/question-action-normal.json";
-import phrases3 from "./../../html/data/question-true-hot.json";
-import phrases4 from "./../../html/data/question-action-hot.json";
+import phrases from "../../html/data/question-true-normal.json";
+import phrases2 from "../../html/data/question-action-normal.json";
+import phrases3 from "../../html/data/question-true-hot.json";
+import phrases4 from "../../html/data/question-action-hot.json";
+
 // -------- norma --------- //
 
-function test () {
+
+function question () {
 
     let phrase = document.querySelector('.phrase');
     
@@ -92,7 +94,7 @@ function test () {
     };
 };
 
-export default test;
+export default question;
 
 // const but2 = document.querySelector('.btn-action-norm');
 // if (but2) {

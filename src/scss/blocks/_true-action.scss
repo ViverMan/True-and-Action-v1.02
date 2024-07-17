@@ -1,4 +1,4 @@
-.difficulty {
+.true-action {
     background-color: #999;
     background-image: url('./../../img/main/bg-main.jpg');
     background-position: center -80px; /* x y */
@@ -11,8 +11,8 @@
     }
 }
 
-.difficulty-content {
-    display: flex;
+.true-action-content {
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
     height: calc(100vh - 60px);
 }
 
-.difficulty-content__btns {
+.true-action-content__btns {
     display: flex;
     gap: 20px;
 
@@ -28,5 +28,7 @@
         flex-direction: column;
     }
 }
+
+
 
 

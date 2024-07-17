@@ -10,7 +10,14 @@ Fancybox.bind('[data-fancybox]', {
 import mobileNav from './modules/mobile-nav.js';
 mobileNav();
 
-//test
-import test from './modules/test.js';
-test();
+//выбор игры
 
+//question
+import question from './modules/question.js';
+question();
+
+import questionStrip from './modules/questions-strip.js';
+questionStrip();
+
+import games from './modules/change-game.js';
+games();

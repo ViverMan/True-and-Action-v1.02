@@ -1,0 +1,17 @@
+.strip-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: calc(100vh - 60px);
+}
+
+.strip-content__btns {
+    display: flex;
+    gap: 20px;
+
+    @include mobileSm {
+        flex-direction: column;
+    }
+}

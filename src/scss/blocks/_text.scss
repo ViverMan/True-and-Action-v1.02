@@ -2,7 +2,7 @@
     font-size: clamp(25px, 5vw, 50px);
 }
 
-.difficulty-content__text {
+.true-action-content__text, .games-content__text, .strip-content__text {
     p {
         font-size: clamp(35px, 5vw, 52px);
         text-decoration: underline;

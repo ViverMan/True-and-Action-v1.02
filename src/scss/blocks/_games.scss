@@ -1,0 +1,18 @@
+.games-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    height: calc(100vh - 60px);
+}
+
+.games-content__btns {
+    display: flex;
+    gap: 20px;
+
+    // @include mobileSm {
+    //     flex-direction: column;
+    // }
+}

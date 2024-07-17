@@ -1,4 +1,4 @@
-.questions-main__content {
+.strip-couple__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,7 +8,7 @@
     height: calc(100vh - 40px);
 }
 
-.questions-main__btns {
+.strip-couple__btns {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -16,4 +16,3 @@
 
     font-size: 40px;
 }
-

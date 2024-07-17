@@ -8,8 +8,10 @@
 
 	--page-bg: #fff;
 	--header-bg: #272222;
+	--bg-color: #999;
 	--text-color: #f87d50;
-	--text-color-white: #fff; 
+	--text-color-white: var(--page-bg); 
+	--text-color-black: var(--header-bg);
 	--accent: #4952f4;
 	--link-color: #2578c8;
 
