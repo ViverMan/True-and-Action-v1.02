@@ -1,14 +1,15 @@
-.true-action {
+.games-main {
     background-color: #999;
     background-image: url('./../../img/main/bg-main.jpg');
-    background-position: center -80px; /* x y */
+    background-position: center center; /* x y */
     background-size: cover;
     background-repeat: no-repeat;
-    height: 1080px;
+    height: calc(100vh - 40px);
     
     @include tablet {
         // background-position: center -50px;
     }
+    
 }
 
 .true-action-content {
