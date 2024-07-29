@@ -18,13 +18,22 @@
 }
 
 .questions-text {
-    font-size: 52px;
+    display: flex;
+    flex-direction: column;
+
     padding: 20px;
     background-color: rgba($color: #272222, $alpha: 0.7);
     border-radius: 15px;
     color: var(--text-color);
 
     p {
-        font-size: clamp(40px, 5vw, 52px);
+        font-size: clamp(14px, 5vw, 52px);
+        transition: all 1s ease-in;
     }
+}
+
+.phrase2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

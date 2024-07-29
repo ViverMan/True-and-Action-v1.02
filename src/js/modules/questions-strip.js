@@ -4,11 +4,20 @@ import phrases6 from "../../html/data/question-strip-three.json";
 function questionStrip () {
 
     let phrase = document.querySelector('.phrase');
+    let phrase2 = document.querySelector('.phrase2');
     
     const but5 = document.querySelector('.btn-strip-couple');
 
     if (but5) {
       but5.addEventListener('click', function() {
+
+        phrase.classList.add('active-on')
+
+        setTimeout(function() {
+          phrase.classList.remove('active-on')
+        }, 800);
+
+        phrase2.classList.add('none');
     
         // let element = document.querySelector('.question-content-card');
         // element.classList.remove('question-red');
@@ -29,6 +38,14 @@ function questionStrip () {
 
     if (but6) {
       but6.addEventListener('click', function() {
+
+        phrase.classList.add('active-on')
+
+        setTimeout(function() {
+          phrase.classList.remove('active-on')
+        }, 800);
+
+        phrase2.classList.add('none');
     
         // let element = document.querySelector('.question-content-card');
         // element.classList.remove('question-red');

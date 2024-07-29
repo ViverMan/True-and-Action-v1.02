@@ -9,32 +9,50 @@ import phrases4 from "../../html/data/question-action-hot.json";
 function question () {
 
     let phrase = document.querySelector('.phrase');
-    
+    let phrase2 = document.querySelector('.phrase2');
+
     const but = document.querySelector('.btn-true-norm');
+    
 
     if (but) {
       but.addEventListener('click', function() {
-    
+
+        phrase.classList.add('active-on')
+
+        setTimeout(function() {
+          phrase.classList.remove('active-on')
+        }, 800);
+
+        phrase2.classList.add('none');
+        
         // let element = document.querySelector('.question-content-card');
         // element.classList.remove('question-red');
         // element.classList.add('question-blue');
-
-    
+        
+        
         let rand = phrases.splice(Math.floor(Math.random() * phrases.length), 1);
-
+        
+        
         phrase.innerText = rand;
-
+        
         if (rand == '') {
           phrase.innerText = 'Все вопросы закончились, пожалуйста, перезагрузите страницу';
-        };
-    
-      });
+        };  
+      });    
     };
-
+    
     const but2 = document.querySelector('.btn-action-norm');
 
     if (but2) {
       but2.addEventListener('click', function() {
+
+        phrase.classList.add('active-on')
+
+        setTimeout(function() {
+          phrase.classList.remove('active-on')
+        }, 800);
+
+        phrase2.classList.add('none');
     
         // let element = document.querySelector('.question-content-card');
         // element.classList.remove('question-red');
@@ -56,6 +74,14 @@ function question () {
 
     if (but3) {
       but3.addEventListener('click', function() {
+
+        phrase.classList.add('active-on')
+
+        setTimeout(function() {
+          phrase.classList.remove('active-on')
+        }, 800);
+
+        phrase2.classList.add('none');
     
         // let element = document.querySelector('.question-content-card');
         // element.classList.remove('question-red');
@@ -77,6 +103,14 @@ function question () {
 
     if (but4) {
       but4.addEventListener('click', function() {
+
+        phrase.classList.add('active-on')
+
+        setTimeout(function() {
+          phrase.classList.remove('active-on')
+        }, 800);
+
+        phrase2.classList.add('none');
     
         // let element = document.querySelector('.question-content-card');
         // element.classList.remove('question-red');
@@ -92,8 +126,8 @@ function question () {
         };   
       });
     };
-};
-
+  };
+  
 export default question;
 
 // const but2 = document.querySelector('.btn-action-norm');
