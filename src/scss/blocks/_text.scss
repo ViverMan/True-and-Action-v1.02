@@ -29,7 +29,12 @@
     p {
         font-size: clamp(14px, 5vw, 52px);
         transition: all 1s ease-in;
+
+        @include mobileSmH {
+            font-size: 24px;
+        }
     }
+
 }
 
 .phrase2 {
